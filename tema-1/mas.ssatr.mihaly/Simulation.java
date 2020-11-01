@@ -29,7 +29,7 @@ public class Simulation {
             change=false;
 
             for (int counter = 0; counter < transitionList.size(); counter++) {
-                if(transitionList.get(counter).isValide(placesList)&&(transitionList.get(counter).time==0)) {
+                if(transitionList.get(counter).validate(placesList)&&(transitionList.get(counter).time==0)) {
                     transitionList.get(counter).execute(placesList);
 
                     myWriter.write("t:" + count + " ");
@@ -48,7 +48,7 @@ public class Simulation {
                 }
             }
             for (int counter = 0; counter < transitionList.size(); counter++) {
-            if(transitionList.get(counter).isValide(placesList)&&(transitionList.get(counter).time>0)) {
+            if(transitionList.get(counter).validate(placesList)&&(transitionList.get(counter).time>0)) {
                 transitionList.get(counter).time--;
                 System.out.println(transitionList.get(counter).trasitionID);
                 timeincrease=true;

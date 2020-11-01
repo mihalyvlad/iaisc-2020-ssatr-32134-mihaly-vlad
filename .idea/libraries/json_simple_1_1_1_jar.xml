@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="json-simple-1.1.1.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tema-1/json-simple-1.1.1.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tema-1/json-simple-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

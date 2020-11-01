@@ -14,7 +14,7 @@ public class Transition {
     public ArrayList<String> needPlaces;
     public ArrayList<String> moveToPlaces;
 
-    public boolean isValide(ArrayList<Place> placesList){
+    public boolean validate(ArrayList<Place> placesList){
         boolean validate=false;
         for (int counter = 0; counter < needPlaces.size(); counter++) {
             for (int counter1 = 0; counter1 < placesList.size(); counter1++) {
