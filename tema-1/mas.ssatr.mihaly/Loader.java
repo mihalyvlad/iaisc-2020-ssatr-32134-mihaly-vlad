@@ -30,7 +30,7 @@ public class Loader {
         Iterator<JSONObject> iterator=places.iterator();
         while (iterator.hasNext()) {
             JSONObject placeJson = iterator.next();
-            // System.out.println(placeJson);
+
             String id = (String) placeJson.get("placeId");
             int tokens=Integer.parseInt((String) placeJson.get("token"));
             placesList.add(new Place(id,tokens));

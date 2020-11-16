@@ -41,13 +41,9 @@ public class Transition {
         }
         for (int counter2 = 0; counter2 < moveToPlaces.size(); counter2++) {
             for (int counter3 = 0; counter3 < placesList.size(); counter3++) {
-
-
                 if(placesList.get(counter3).id.equals(moveToPlaces.get(counter2))) {
                     placesList.get(counter3).token++;
                 }
-
-
             }
 
         }
