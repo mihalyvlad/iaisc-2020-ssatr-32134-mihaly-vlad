@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="heater-simulator-master">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/heater-simulator-master" />
+      <root url="jar://E:/firefox_dwlds/jFuzzyLogic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/heater-simulator-master/HeaterSimulator/src" />
+      <root url="jar://E:/firefox_dwlds/jFuzzyLogic.jar!/" />
+    </SOURCES>
+  </library>
+</component>
